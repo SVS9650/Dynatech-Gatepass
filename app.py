@@ -17,8 +17,8 @@ DATA_PATH = current_dir / DATA_FILE
 
 # 2. Get secure credentials from environment variables set on Render
 # These MUST be set correctly in the Render dashboard for the app to start!
-EMAIL_USERNAME = os.environ.get("EMAIL_USERNAME", "YOUR_USERNAME_HERE")
-EMAIL_PASSWORD = os.environ.get("EMAIL_PASSWORD", "YOUR_PASSWORD_HERE")
+EMAIL_USERNAME = os.environ.get("EMAIL_USERNAME", "gatepassdc@gmail.com")
+EMAIL_PASSWORD = os.environ.get("EMAIL_PASSWORD", "xurh olou naqc tgwy")
 SENDER_EMAIL = EMAIL_USERNAME
 
 # 3. Define the email recipients for CC (e.g., security, manager)
